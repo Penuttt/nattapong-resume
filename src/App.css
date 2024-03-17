@@ -60,10 +60,10 @@ nav ul li a:hover {
 }
 
 .social {
-  position: absolute;
+  /* position: absolute; */
   margin-top: 20px;
   display: flex;
-  bottom: 120px;
+  /* bottom: 120px; */
 }
 .social i {
   padding-right: 30px;
