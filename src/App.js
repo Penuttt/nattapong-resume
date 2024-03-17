@@ -18,11 +18,11 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route exact path="/about" element={<About />} />
-          <Route exact path="/education" element={<Education />} />
-          <Route exact path="/experience" element={<Experience />} />
-          <Route exact path="/contact" element={<Contact />} />
+          <Route path="/nattapong-resume/" element={<Home />} />
+          <Route path="/nattapong-resume/about" element={<About />} />
+          <Route path="/nattapong-resume/education" element={<Education />} />
+          <Route path="/nattapong-resume/experience" element={<Experience />} />
+          <Route path="/nattapong-resume/contact" element={<Contact />} />
         </Routes>
       </div>
     </Router>

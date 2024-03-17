@@ -63,10 +63,12 @@ nav ul li a:hover {
   /* position: absolute; */
   margin-top: 20px;
   display: flex;
+  padding: 0;
   /* bottom: 120px; */
 }
 .social i {
-  padding-right: 30px;
+  padding-right: 15px;
+  padding-left: 15px;
   font-size: 25px;
   color: #9a9b9c;
 }

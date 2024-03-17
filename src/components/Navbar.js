@@ -22,11 +22,11 @@ class Navbar extends Component {
         return (
             <nav>
                 <ul className="horizontal-menu">
-                    <Navitems item="Home" tolink="/" activenav={this.activeitem}></Navitems>
-                    <Navitems item="About" tolink="/about" activenav={this.activeitem}></Navitems>
-                    <Navitems item="Education" tolink="/education" activenav={this.activeitem}></Navitems>
-                    <Navitems item="Experience" tolink="/experience" activenav={this.activeitem}></Navitems>
-                    <Navitems item="Contact" tolink="/contact" activenav={this.activeitem}></Navitems>
+                    <Navitems item="Home" tolink="/nattapong-resume/" activenav={this.activeitem}></Navitems>
+                    <Navitems item="About" tolink="/nattapong-resume/about" activenav={this.activeitem}></Navitems>
+                    <Navitems item="Education" tolink="/nattapong-resume/education" activenav={this.activeitem}></Navitems>
+                    <Navitems item="Experience" tolink="/nattapong-resume/experience" activenav={this.activeitem}></Navitems>
+                    <Navitems item="Contact" tolink="/nattapong-resume/contact" activenav={this.activeitem}></Navitems>
                 </ul>
             </nav>
         )
